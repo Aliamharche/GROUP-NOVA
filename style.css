@@ -172,9 +172,18 @@ footer {
         width: 250px;
     }
     footer{
-        background-color: #16181a;
         color: #78909c;
         padding: 20px 0;
     }
+    footer p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    footer #divft a i {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
 }
 
