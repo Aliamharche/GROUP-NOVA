@@ -389,16 +389,11 @@
             }
 
             .footer-logo img {
-                width: 20px;
-                height: 20px;
+                width: 60px;
+                height: 60px;
                 margin: 0 10px;
-                font-size: small;
             }
-           .social-links a{
-                width: 40px;
-                height: 40px;
-                font-size: 1.2em;
-           }
+
             .scroll-top {
                 bottom: 20px;
                 right: 20px;
