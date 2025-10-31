@@ -57,7 +57,7 @@ function showMemberDetails(card) {
         <div class="modal-info">
             <p class="modal-name">${name}</p>
             <p class="modal-role">${role}</p>
-            <p class="modal-contact">${contact}</p>
+            <a href="mailto:${contact}"><p class="modal-contact">${contact}</p></a>
         </div>
     `;
     
