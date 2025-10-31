@@ -1,168 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GROUP NOVA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1 id="novas">Welcome to Group NOVA</h1>
-    <h2>EXPLORER LES NOVA`S  ET LEUR ROLE</h2>
-    <div>
-        <div>
-            <h3>president de Groupe:</h3>
-            <p>nom prenom : Nawal Halmoune </p>
-            <p>role : superviser les activites
-                 du groupe et representer le groupe lors des evenements officiels.</p>
-            <p>contact : <a class="email-link" href="mailto:naoualqueen77@gmail.com" aria-label="Email Nawal Halmoune">naoualqueen77@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/naoual.jpeg" alt="nawal_photo" width="200" height="200">
-            <p>president de Groupe</p>
-        </div>
+    <div class="header">
+        <h1 id="top">🌟 GROUPE NOVA 🌟</h1>
+        <h2>Explorez les NOVA's et leurs rôles</h2>
     </div>
-    <div>
-        <div>
-        <h3>vice-president de Groupe:</h3>
-        <p>nom prenom : asmae Es-souaf</p>
-        <p>role : assister le president dans ses fonctions et le remplacer en cas d'absence.</p>
-    <p>contact : <a class="email-link" href="mailto:asmaeessouaf3@gmail.com" aria-label="Email Asmae Es-souaf">asmaeessouaf3@gmail.com</a></p>
-        </div>
-        <div>
-        <img src="images/asmae.jpeg" alt="asmae_photo" width="200" height="200">
-        <p>vice-president de Groupe</p>
+
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Rechercher un membre...">
+            <i class="fas fa-search"></i>
         </div>
     </div>
 
-    <div>
-        <div>
-            <h3>Responsable Créativité:</h3>
-            <p>nom prenom : Khawla Ettouil</p>
-            <p>role : gérer les activités créatives et les projets artistiques du groupe.</p>
-            <p>contact : <a class="email-link" href="mailto:Khawlaettouil920@gmail.com" aria-label="Email Khawla Ettouil">Khawlaettouil920@gmail.com</a></p>
+    <div class="container" id="membersContainer">
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Présidente de Groupe</h3>
+                <p class="name">Nawal Halmoune</p>
+                <p class="role">Superviser les activités du groupe et représenter le groupe lors des événements officiels.</p>
+                <a href="mailto:naoualqueen77@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> naoualqueen77@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/naoual.jpeg" alt="Nawal Halmoune">
+                <span class="badge">Présidente</span>
+            </div>
         </div>
-        <div>
-            <img src="images/khawla.jpeg" alt="khawla_photo" width="200" height="200">
-            <p>Responsable Créativité</p>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Vice-présidente de Groupe</h3>
+                <p class="name">Asmae Es-souaf</p>
+                <p class="role">Assister la présidente dans ses fonctions et la remplacer en cas d'absence.</p>
+                <a href="mailto:asmaeessouaf3@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> asmaeessouaf3@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/asmae.jpeg" alt="Asmae Es-souaf">
+                <span class="badge">Vice-présidente</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Responsable Créativité</h3>
+                <p class="name">Khawla Ettouil</p>
+                <p class="role">Gérer les activités créatives et les projets artistiques du groupe.</p>
+                <a href="mailto:Khawlaettouil920@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> Khawlaettouil920@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/khawla.jpeg" alt="Khawla Ettouil">
+                <span class="badge">Créativité</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Responsable Innovation</h3>
+                <p class="name">Ali Amharche</p>
+                <p class="role">Développer et mettre en œuvre des solutions innovantes pour le groupe.</p>
+                <a href="mailto:aliamhrache@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> aliamhrache@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/ali.jpeg" alt="Ali Amharche">
+                <span class="badge">Innovation</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Responsable Communication</h3>
+                <p class="name">Hind Boukribia</p>
+                <p class="role">Gérer la communication interne et externe du groupe.</p>
+                <a href="mailto:Hindboukribia@icloud.com" class="contact">
+                    <i class="fas fa-envelope"></i> Hindboukribia@icloud.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/hind.jpeg" alt="Hind Boukribia">
+                <span class="badge">Communication</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Secrétaire Général</h3>
+                <p class="name">Jamal Soujaa</p>
+                <p class="role">Gérer les aspects administratifs et la documentation du groupe.</p>
+                <a href="mailto:jamalsoukja@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> jamalsoukja@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/jamal.jpeg" alt="Jamal Soujaa">
+                <span class="badge">Secrétaire</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Responsable Organisation (2)</h3>
+                <p class="name">Khalid Zaid</p>
+                <p class="role">Planifier et coordonner les événements et activités.</p>
+                <a href="mailto:khalidcisco2004@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> khalidcisco2004@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/khalid.jpeg" alt="Khalid Zaid">
+                <span class="badge">Organisation</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Responsable Organisation (1)</h3>
+                <p class="name">Hassana Zejjari</p>
+                <p class="role">Collaborer à la planification et l'organisation des événements.</p>
+                <a href="mailto:Hassanazejjari10@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> Hassanazejjari10@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/hassana.jpeg" alt="Hassana Zejjari">
+                <span class="badge">Organisation</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Trésorerie</h3>
+                <p class="name">Ihssan Boughanbour</p>
+                <p class="role">Gérer les finances et le budget du groupe.</p>
+                <a href="mailto:Ihssanboughnbour@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> Ihssanboughnbour@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/ihssan.jpeg" alt="Ihssan Boughanbour">
+                <span class="badge">Trésorerie</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Responsable Vidéographie</h3>
+                <p class="name">Basma Koulil</p>
+                <p class="role">Créer et éditer les contenus vidéo du groupe.</p>
+                <a href="mailto:Basmakoulile22@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> Basmakoulile22@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/basma.jpeg" alt="Basma Koulil">
+                <span class="badge">Vidéographie</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-info">
+                <h3>Responsable Photographie</h3>
+                <p class="name">Amina Bendagou</p>
+                <p class="role">Capturer et éditer les photos des événements et activités.</p>
+                <a href="mailto:aminabendagou3@gmail.com" class="contact">
+                    <i class="fas fa-envelope"></i> aminabendagou3@gmail.com
+                </a>
+            </div>
+            <div class="member-photo">
+                <img src="images/amina.jpeg" alt="Amina Bendagou">
+                <span class="badge">Photographie</span>
+            </div>
         </div>
     </div>
 
-    <div>
-        <div>
-            <h3>Responsable Innovation:</h3>
-            <p>nom prenom : Ali Amharche</p>
-            <p>role : développer et mettre en œuvre des solutions innovantes pour le groupe.</p>
-            <p>contact : <a class="email-link" href="mailto:aliamhrache@gmail.com" aria-label="Email Ali Amharche">aliamhrache@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/ali.jpeg" alt="ali_photo" width="200" height="200">
-            <p>Responsable Innovation</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h3>Responsable Communication:</h3>
-            <p>nom prenom : Hind Boukribia</p>
-            <p>role : gérer la communication interne et externe du groupe.</p>
-            <p>contact : <a class="email-link" href="mailto:Hindboukribia@icloud.com" aria-label="Email Hind Boukribia">Hindboukribia@icloud.com</a></p>
-        </div>
-        <div>
-            <img src="images/hind.jpeg" alt="hind_photo" width="200" height="200">
-            <p>Responsable Communication</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h3>Secrétaire Général:</h3>
-            <p>nom prenom : Jamal Soujaa</p>
-            <p>role : gérer les aspects administratifs et la documentation du groupe.</p>
-            <p>contact : <a class="email-link" href="mailto:jamalsoukja@gmail.com" aria-label="Email Jamal Soujaa">jamalsoukja@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/jamal.jpeg" alt="jamal_photo" width="200" height="200">
-            <p>Secrétaire Général</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h3>Responsables Organisation(2):</h3>
-            <p>nom prenom : Khalid Zaid</p>
-            <p>role : planifier et coordonner les événements et activités.</p>
-            <p>contact : <a class="email-link" href="mailto:khalidcisco2004@gmail.com" aria-label="Email Khalid Zaid">khalidcisco2004@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/khalid.jpeg" alt="khalid_photo" width="200" height="200">
-            <p>Responsable Organisation(2)</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h3>Responsable Organisation(1):</h3>
-            <p>nom prenom : Hassana Zejjari</p>
-            <p>role : collaborer à la planification et l'organisation des événements.</p>
-            <p>contact : <a class="email-link" href="mailto:Hassanazejjari10@gmail.com" aria-label="Email Hassana Zejjari">Hassanazejjari10@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/hassana.jpeg" alt="hassana_photo" width="200" height="200">
-            <p>Responsable Organisation(1)</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h3>Trésorerie:</h3>
-            <p>nom prenom : Ihssan Boughanbour</p>
-            <p>role : gérer les finances et le budget du groupe.</p>
-            <p>contact : <a class="email-link" href="mailto:Ihssanboughnbour@gmail.com" aria-label="Email Ihssan Boughanbour">Ihssanboughnbour@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/ihssan.jpeg" alt="ihssan_photo" width="200" height="200">
-            <p>Trésorerie</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h3>Responsable Vidéographie:</h3>
-            <p>nom prenom : Basma Koulil</p>
-            <p>role : créer et éditer les contenus vidéo du groupe.</p>
-            <p>contact : <a class="email-link" href="mailto:Basmakoulile22@gmail.com" aria-label="Email Basma Koulil">Basmakoulile22@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/basma.jpeg" alt="basma_photo" width="200" height="200">
-            <p>Responsable Vidéographie</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h3>Responsable Photographie:</h3>
-            <p>nom prenom : Amina Bendagou</p>
-            <p>role : capturer et éditer les photos des événements et activités.</p>
-            <p>contact : <a class="email-link" href="mailto:aminabendagou3@gmail.com" aria-label="Email Amina Bendagou">aminabendagou3@gmail.com</a></p>
-        </div>
-        <div>
-            <img src="images/amina.jpeg" alt="amina_photo" width="200" height="200">
-            <p>Responsable Photographie</p>
-        </div>
-    </div>
     <footer>
-        <p style="color: rgb(78, 70, 70); text-align: center; margin-top: 20px; text-decoration: initial;"> OFPPT ISTAG BAB TIZIMI </p>
-        <div id="divft">
-            <a href="#novas" target="_blank"><img src="images/gn.jpg" alt="gn_logo" width="50" height="50"></a>
-            <a href="https://www.instagram.com/grou.pnova/?utm_source=qr&igsh=MXBuazFrYTZjZ2dtdQ%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/people/Nova-Group/61582861685144/" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.ofppt.ma/" target="_blank"><img src="images/ofppt.png" alt="ofppt_logo" width="50" height="50"></a>
+        <div class="footer-content">
+            <p class="footer-text">OFPPT ISTAG BAB TIZIMI</p>
+            <div class="footer-logo">
+                <img src="images/gn.jpg" alt="Group Nova Logo">
+                <img src="images/ofppt.png" alt="OFPPT Logo">
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/grou.pnova/?utm_source=qr&igsh=MXBuazFrYTZjZ2dtdQ%3D%3D" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/people/Nova-Group/61582861685144/" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.ofppt.ma/" target="_blank" title="OFPPT">
+                    <i class="fas fa-globe"></i>
+                </a>
+            </div>
+            <p class="footer-text">&copy; 2025 Groupe Nova. Tous droits réservés.</p>
         </div>
-        <p>&copy; 2025 Groupe Nova. Tous droits réservés.</p>
-          
     </footer>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
